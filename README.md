@@ -21,6 +21,24 @@ A user-friendly React application that enables users to search and view a list o
 - ![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?logo=create-react-app&logoColor=white) **Development Tooling**: Create React App
 
 ---
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/rs0657/BajajTest_Doctor-Listing-Page.git
+   cd BajajTest_Doctor-Listing-Page
+   ```
+
+2. **Install  dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **3. Start the development server:**:
+   ```bash
+   npm start
+   ```
+4.**4. Navigate to http://localhost:3000 in your browser to view the application.**
+
+
 
 ## 📸 Screenshots
 
@@ -35,54 +53,36 @@ A user-friendly React application that enables users to search and view a list o
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (v6 or higher)
 
-### Steps
+## 🧪 Available Scripts
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/rs0657/BajajTest_Doctor-Listing-Page.git
-   cd BajajTest_Doctor-Listing-Page
-Install dependencies:
+- **npm start** – Runs the app in development mode.
+- **npm test** – Launches the test runner in interactive watch mode.
+- **npm run build** – Builds the app for production.
+- **npm run eject** – Exposes configuration files for customization.
 
-bash
-Copy
-Edit
-npm install
-Start the development server:
+---
 
-bash
-Copy
-Edit
-npm start
-Navigate to http://localhost:3000 in your browser to view the application.
+## 🌐 Live Demo
 
-🧪 Available Scripts
-npm start – Runs the app in development mode.
-
-npm test – Launches the test runner in interactive watch mode.
-
-npm run build – Builds the app for production.
-
-npm run eject – Exposes configuration files for customization.
-
-🌐 Live Demo
 Experience the live version of the application here:
 
 🔗 https://bajaj-test-doctor-listing-page.vercel.app
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
+
 Contributions are welcome! To contribute:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-name`).
+6. Create a new Pull Request.
 
-Create a new branch (git checkout -b feature-name).
+---
 
-Make your changes.
+## 📄 License
 
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-name).
-
-Create a new Pull Request.
-
-📄 License
 This project is licensed under the MIT License.
