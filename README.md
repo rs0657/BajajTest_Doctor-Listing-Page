@@ -38,12 +38,6 @@ A user-friendly React application that enables users to search and view a list o
    ```
 4.**4. Navigate to http://localhost:3000 in your browser to view the application.**
 
-
-
-## 📸 Screenshots
-
-![Doctor Listing Page](link-to-screenshot.jpg)
-
 ---
 
 ## 📥 Installation
