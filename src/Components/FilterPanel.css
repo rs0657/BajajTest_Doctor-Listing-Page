@@ -1,0 +1,81 @@
+.filter-panel {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.section {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section-header h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.arrow {
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.radio-label,
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.specialty-search {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-all {
+  color: #2563eb;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563eb;
+}
